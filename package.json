@@ -1,0 +1,19 @@
+{
+  "name": "make-index",
+  "version": "1.0.0",
+  "description": "Make an index that exports modules from subfolders",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/penx/make-index.git"
+  },
+  "author": "Alasdair McLeay",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/penx/make-index/issues"
+  },
+  "homepage": "https://github.com/penx/make-index#readme"
+}
