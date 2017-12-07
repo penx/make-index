@@ -4,7 +4,8 @@ Create an index file containing exports for modules in sub folders.
 
 ## Usage
 
-```npm install make-index -g
+```
+npm install make-index -g
 cd src/components
 make-index
 ```
