@@ -2,9 +2,22 @@
 
 Create an index file containing exports for modules in sub folders.
 
+## Usage
+
+```npm install make-index -g
+cd src/components
+make-index
+```
+
+Or add as an npm script, or as a step in your build script.
+
 ## Why?
 
-This is useful in React when you have a lot of components split in to types and you want to make them all available from a single import.
+This is useful in React when you
+
+ - have a lot of components split in to types (components/containers or atoms/molecules)
+ - want to make them all available from a single `import { ComponentName, AnotherComponent } from '../components'`
+ - don't want to manually maintain a components index file.
 
 ## Example
 
