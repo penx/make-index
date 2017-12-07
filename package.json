@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/penx/make-index#readme",
   "dependencies": {
+    "commander": "^2.12.2",
     "glob": "^7.1.2",
     "sprintf-js": "^1.1.1"
   }
