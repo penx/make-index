@@ -7,6 +7,7 @@ Create an index file containing exports for modules in sub folders.
 
 This is useful in React when you have a lot of components split in to types and you want to make them all available from a single import.
 
+
 ## Example
 
 Given a folder structure:
@@ -27,6 +28,7 @@ Running `make-index --d src/components`, will create a file at `src/components/i
 export AComponent from './AComponent';
 export AnotherComponent from './AnotherComponent';
 ```
+
 
 ## Assumptions
 
