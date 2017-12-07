@@ -1,6 +1,6 @@
 {
   "name": "make-index",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Make an index that exports modules from subfolders",
   "main": "index.js",
   "scripts": {
@@ -12,8 +12,15 @@
   },
   "author": "Alasdair McLeay",
   "license": "ISC",
+  "bin": {
+    "make-index": "./index.js"
+  },
   "bugs": {
     "url": "https://github.com/penx/make-index/issues"
   },
-  "homepage": "https://github.com/penx/make-index#readme"
+  "homepage": "https://github.com/penx/make-index#readme",
+  "dependencies": {
+    "glob": "^7.1.2",
+    "sprintf-js": "^1.1.1"
+  }
 }
