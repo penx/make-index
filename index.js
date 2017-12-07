@@ -7,7 +7,7 @@ var sprintf = require("sprintf-js").sprintf;
 var commander = require('commander');
 
 commander
-  .option('-d, --directory <directory>', 'The source directory to index, relative to the current working directory.')
+  .option('-d, --directory <directory>', 'The source directory to index, relative to the current working directory.', '.')
   .option('-s, --source <source>', 'Glob for finding modules in the given directory.', '**/index.js')
   .option('-t, --target <target>', 'The file to write to, relative to <source>.', 'index.js')
   .option('-h, --header <header>', 'String to prepend to top of generated file.',
